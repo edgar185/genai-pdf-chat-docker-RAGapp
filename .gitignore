@@ -1,0 +1,24 @@
+# Secrets and credentials — never commit these
+.env
+*.pem
+*.key
+Neo4j-*.txt
+credentials*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Logs and data
+*.log
+data/
+uploads/
